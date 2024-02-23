@@ -45,6 +45,5 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-
-
 }
+//Check status: (get status) check the state of the working directiony

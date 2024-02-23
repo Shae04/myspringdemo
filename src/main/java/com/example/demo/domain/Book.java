@@ -12,6 +12,8 @@ import lombok.Data;
 @Data
 @Entity
 public class Book {
+
+    //add somthing just for branch2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

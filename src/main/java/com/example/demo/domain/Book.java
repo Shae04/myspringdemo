@@ -6,6 +6,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+//For github push testing lets add make soem changes on this domain file
+
+
 @Data
 @Entity
 public class Book {
@@ -14,6 +17,10 @@ public class Book {
     private Long id;
     private String title;
     private String author;
+
+    private double price;
+
+    //ctrl s
 
     public Long getId() {
         return id;
@@ -38,4 +45,6 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+
 }
